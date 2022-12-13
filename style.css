@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #DCFF7C;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 100px;
+    color: #273036;
+  }
+  
+  .site-menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    margin-left: 60px;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 300px;
+  }
+  
+  .block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .b-1 {
+    background: url("images/img1.jpg") 80% 80% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-2 {
+    background: url("images/img2.jpg") 60% 60% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-3 {
+    background: url("images/img3.jpg") 20% 20% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-4 {
+    background: url("images/img4.jpg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-5 {
+    background: url("images/img5.jpg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-6 {
+    background: url("images/img6.jpg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .b-7 {
+    background: url("images/img7.jpg") 50% 50% no-repeat;
+    background-size: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    bottom: -10rem;
+    background: #DCFF7C;
+  }
+  
+  .title {
+    margin-top: 20rem;
+    text-align: center;
+    font-family: LEMONMILK-Medium;
+    font-size: 9em;
+    color: #171814;
+    overflow: hidden;
+  }
+  
+  .title .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
